@@ -1,0 +1,83 @@
+\documentclass[a4paper, 12pt]{article}
+
+%Package Settings
+\usepackage[margin=2.5cm, includefoot]{geometry}
+\usepackage{setspace}
+\doublespacing
+\usepackage[backend=biber,authordate]{biblatex-chicago}
+\addbibresource{Refs.bib}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{indentfirst}
+
+% Page Style Stuff
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0.4pt}
+  \lfoot{\theauthor}
+  \cfoot{\thetitle}
+  \rfoot{Page \thepage}
+}
+
+% Title Formatting
+\title{Greek Battle Strategy and Its Victory Over Persia}
+
+\author{Luke Hedt}
+\date{\today}
+
+% Handy Citation Notes for later:
+% \footcite[, 200]{morris_powell_2010} %To add page numbers to citations
+% \blockquote{} % If you plan to quote a huge section of Herodotus
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \includegraphics[width=0.25\textwidth]{UniLogo.png}\par\vspace{1cm}
+    {\scshape\Large THE UNIVERSITY OF MELBOURNE \par}
+    \vspace{1.5cm}
+    {\Huge \thetitle \par}
+    \vfill
+
+% Bottom of the page
+    {\Large\itshape \theauthor \par}
+    \vspace{1.5cm}
+    {\Large \today\par}
+\end{titlepage}
+% Format first page correctly.
+\pagestyle{plain}
+
+The early 5th century BC was a pivotal time in the formation of the Hellenic
+identity, marking the decisive point between the period of \emph{p{\'o}leis} Greece
+and the true Hellenic period. The cornerstone of this identity formation
+was the defeat of Persia in the Greco-Persian Wars, beginning in 499 BC
+with the Ionian Revolt. But what brought about the defeat of Persia? What tactics
+were the Greeks employing in the period that brought about their victories?
+This essay will attempt to address these questions, discussing how their
+strategies and arms and armour were instrumental in the defeat of Persia
+in the Greco-Persian Wars and
+Carthage in the First Sicilian War.
+
+\vspace{1em} \par
+
+The Greek City States were not a cohesive unit at the outbreak of the 5th century
+BC as we tend to think of them today. Rather each urban centre tended to control
+the land around it, and considered itself a separate (and usually superior)
+entity to the other cities that would now be considered Greek. Your city of
+origin was usually considered more important than their `Greekness,' it was
+a more relevant identifier, to be say, Athenian than Greek prior to the
+Greco-Persian Wars. However, most of the Greek city states often equipped
+themselves rather similarly, copying the armour style of Sparta, the most
+effective fighting force in the locality.
+
+
+\nocite{*}
+% Bib page
+\newpage
+\printbibliography
+
+\end{document}
+
