@@ -1,6 +1,8 @@
 \documentclass[twoside, a4paper, 12pt]{article}
 
 %Package Settings
+
+\usepackage[utf8]{inputenc}
 \usepackage[margin=2.5cm, includefoot]{geometry}
 \usepackage{setspace}
 \doublespacing
@@ -35,7 +37,7 @@
 \setul{}{0.2pt}
 
 % Allows for sourcing images
-\newcommand{\source}[1]{\caption*{\hfill Source: {#1}} }
+\newcommand{\source}[1]{\caption*{Source: {#1}} }
 
 % Handy Citation Notes for later:
 % \footcite[200]{morris_powell_2010} %To add page numbers to citations
@@ -76,6 +78,15 @@ Carthage in the First Sicilian War.
 
 \par\vspace{1em}
 
+\begin{wrapfigure}{R}{0.4\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{HopliteArcher.jpg}
+  \captionsetup{justification=raggedleft}
+  \caption{\ul{A Greek Hoplite attacking a Persian Archer, circa 450 BC.}}
+  \source{\cite{MFABoston_2017_hoplite}}
+  \label{img:HopliteArcher}
+\end{wrapfigure}
+
 The Greek City States were not a cohesive unit at the outbreak of the 5th century
 BC as we tend to think of them today. Rather each urban centre (the
 \emph{polis}) controlled
@@ -96,16 +107,8 @@ circa 700 BC.\footnotemark
 Most artistic interpretations of \emph{hoplites} tend to resemble the pottery
 style in \textbf{Figure \ref{img:HopliteArcher}}, spear in the overhand
 position and the sheild protecting the left-hand side of the body.
-\par\vspace{1em}
 
-\begin{wrapfigure}{R}{0.4\textwidth}
-  \centering
-  \includegraphics[width=\linewidth]{HopliteArcher.jpg}
-  \captionsetup{justification=raggedleft}
-  \caption{\ul{A Greek Hoplite attacking a Persian Archer, circa 450 BC.}}
-  \source{\cite{MFABoston_2017_hoplite}}
-  \label{img:HopliteArcher}
-\end{wrapfigure}
+\par\vspace{1em}
 
 The widely
 accepted view is that these depictions are in a `heroic' pose, and not
@@ -115,18 +118,33 @@ pose,\footnotemark[\value{footnote}] however the pose has several issues from
 a battle perspective.
 \footnotetext{\cite[57]{wees_hoplite_bronze}}
 Firstly, holding the spear in such a way loses one of the main advantages of a
-spear; reach. To get a balanced spear in the overhand grip, you're required
-to keep over half the spear bahind your back. Not only do you lose the reach here,
+spear; keeping the enemy a spear's-length away.
+To get a balanced spear in the overhand grip, you're required
+to keep over half the spear behind your back. Not only do you lose the reach here,
 but you're probably going to hit the man behind you in the head because you
 can't see what you're doing. It would be far more likely that any weapon held
-this way would have a counterweight on the butt of the spear, keeping it short
-and balanced, but such weapons don't appear in art or archaeology. Secondly,
+this way would have a large counterweight on the butt of the spear, keeping it short
+and balanced, but such weapons don't appear in art or archaeology. In some Persian
+art involving the immortals a small metal ball-weight can be observed, as in
+\textbf{Figure \ref{img:ImmortalSusa}},
+however it is so small it's probably only to relieve wrist-strain. The
+center of balance on these spears would still be about half way
+up the spear. Secondly,
 such a hold is very taxing on the biceps. As strong as Greek men may have been
 in antiquity, it seems unlikely that anyone could be bothered holding a spear
 up for the duration of a fight when you can use your elbow as a cantilever in
 an under-arm grip.
 
 \par\vspace{1em}
+
+\begin{wrapfigure}{L}{0.4\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{ImmortalsSusa.jpg}
+  \captionsetup{justification=raggedright}
+  \caption{\ul{Immortals as depicted in wall art in Susa.}}
+  \source{\cite{iranian_historical_photography}}
+  \label{img:ImmortalSusa}
+\end{wrapfigure}
 
 The Persian Empire was one of the most formidable fighting forces in the world
 in the early fifth century BC, having been formed mere decades prior with
@@ -187,6 +205,8 @@ it.
 Overall Greece should have had no chance against the Persians, and the
 Carthaginians probably should have been bigger baddies than they were lol.
 
+
+\nocite{*}
 % Bib page
 \newpage
 \listoffigures
