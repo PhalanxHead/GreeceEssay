@@ -37,7 +37,8 @@
 \setul{}{0.2pt}
 
 % Allows for sourcing images
-\newcommand{\source}[1]{\caption*{Source: {#1}} }
+\newcommand{\sourceL}[1]{\caption*{Source: {#1}\hfill} }
+\newcommand{\sourceR}[1]{\caption*{\hfill Source: {#1}} }
 
 % Handy Citation Notes for later:
 % \footcite[200]{morris_powell_2010} %To add page numbers to citations
@@ -83,7 +84,7 @@ Carthage in the First Sicilian War.
   \includegraphics[width=\linewidth]{HopliteArcher.jpg}
   \captionsetup{justification=raggedleft}
   \caption{\ul{ Pottery art of a Greek Hoplite attacking a Persian Archer, circa 450 BC.}}
-  \source{\cite{MFABoston_2017_hoplite}}
+  \sourceR{\cite{MFABoston_2017_hoplite}}
   \label{img:HopliteArcher}
 \end{wrapfigure}
 
@@ -162,6 +163,15 @@ the one-on-one confrontations pictured in the pottery art.
 
 \par\vspace{1em}
 
+\begin{wrapfigure}{L}{0.4\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{ImmortalsSusa.jpg}
+  \captionsetup{justification=raggedright}
+  \caption{\ul{Immortals as depicted in a mural in Susa, circa 510 BC}}
+  \sourceL{\emph{Mus\'ee du Louvre}, Paris, \\ via \cite{iranian_historical_photography}}
+  \label{img:ImmortalSusa}
+\end{wrapfigure}
+
 Hoplite armour from here tends to vary a lot more. The hoplites
 were usually drawn from the classes that could afford the gear, \footcite[38]{wietzel_wheeler_1970}
 so the standing armies may not have always been armoured the same, with gear
@@ -176,18 +186,13 @@ wear a corselet, bronze body armour held together with leather and bronze bandin
 About one in ten hoplites wore the corselet,\footcite{wees_1997} based on
 arcaeological findings. As the rarest part of the major
 armour parts it was probably the most expensive, and least necessary given the
-hoplite would have a shield to keep weapons out of his torso.
+hoplite would have a shield to keep weapons out of his torso. Most hoplites
+would have also carried a sword, in case his spear broke or for whatever reason
+he needed to engage in close combat with an enemy. This was not an uncommon
+practice, though it was usually not the primary weapon of choice as the spear
+has the advantage of length. \footcite{snodgrass_2006}
 
 \par\vspace{1em}
-
-\begin{wrapfigure}{L}{0.4\textwidth}
-  \centering
-  \includegraphics[width=\linewidth]{ImmortalsSusa.jpg}
-  \captionsetup{justification=raggedright}
-  \caption{\ul{Immortals as depicted in a mural in Susa, circa 510 BC}}
-  \source{\emph{Mus\'ee du Louvre}, Paris, \\ via \cite{iranian_historical_photography}}
-  \label{img:ImmortalSusa}
-\end{wrapfigure}
 
 The Persian Empire was one of the most formidable fighting forces in the world
 in the early fifth century BC, having been formed mere decades prior with
@@ -212,31 +217,97 @@ ethnic Persian and Egyptian cuirasses,
 with the Persian style being an iron
 scale type, the Median being some kind of unclear distinction from this, and
 the Egyptian being a linen cuirass.\footcite[260-2]{charles_bodyarmour_2012}
+This armoue was usually worn under the soldier's tunics, they'd be rather
+uncomfortable in the hot Iranian sun over the tunic.
 
 \par\vspace{1em}
 
-The enitre Persian Grand army was something of a combination of the militaries
+The enitre Persian Grand Army was something of a combination of the militaries
 of their conquered nations, as well as various mercenary soldiers. The army had
 a good balance of the standard ancient military divisions, archers, infantry
 and horsemen. The archers were the first line of attack, lining up behind
 shield bearers and firing volleys into the enemy lines, thinning them. Most
-of the art surrounding Persian archers pictures them un-armoured with a recurve
-bow. Interestingly the infantry unit made famous by Herodotus, the \emph{Immortals},
+of the art surrounding Persian archers pictures them un-armoured with a composite
+bow. \footcite{dhwty_2015}
+Interestingly the infantry unit made famous by Herodotus, the \emph{Immortals},
 are often pictured with a bow and a quiver as well as their spear and shield
 (for example, see \textbf{Figure \ref{img:ImmortalSusa}}.)
+This is somewhat of an odd combination of weapons for an infantry unit,
+however given their status as the best troops in the empire, the Persian
+\emph{principia} if you will, clearly it was expected that a Persian solider
+could wield such a combination. Herodotus also makes several references to
+the Persian infantry being armoured with wicker shields, which is unsuprising
+for infantry units. Most modern interpretations suggest they were oval shaped
+(See \textbf{Figure \ref{img:ImmortalModern}}) or large body-sized rectangles.
+The immortals also carried short spears with adorned counterbalances of silver
+or gold, slings, and swords or large daggers (some modern interpretations also
+have a spiked handaxe as in \textbf{Figure \ref{img:ImmortalModern}}, however
+this isn't mentioned by Herodotus.)
+
+\begin{wrapfigure}{R}{0.4\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{ModernImmortalReco.jpg}
+  \captionsetup{justification=raggedleft}
+  \caption{\ul{Modern Reconstruction of Immortals}}
+  \sourceR{\cite{farrokh_2013}}
+  \label{img:ImmortalModern}
+\end{wrapfigure}
 
 \par\vspace{1em}
 
-In 512 BC, the Greek states were becoming restless with Persian rule. Despite
-being somewhat indirect rulers of numerous Greek cities in Ionia, only requiring
-a small tax from their subjects, the idea of being beholden to another nation
-was insulting to the Greek cities.
+In 512 BC, the Ionian states began a revolt against the Persians, who had
+begun to enact enormous taxes on their satraps, the Ionians having become
+satraps in order to avoid a Spartan invasion years prior.\footnotemark
+Athens joined the expedition in 499 BC, sending part of a fleet to sack the Persian
+satrapy of Sardis. The houses, however, were made of reed, and as one soldier
+set a building on fire, the entire city burned to the ground.\footnotemark[\value{footnote}]
+\footnotetext{\cite[19-21]{green_darius_west}}
 
 \par\vspace{1em}
 
-As a warning to all his satraps(?), Darius had to react to the Ionian
-insurrection. A plan to take Athens and subjugate its leaders was formed,
-and troops sailed for Greece at once from the Persian heart.
+Darius, the Great King of Persia, naturally was furious at the loss of Sardis,
+Herodotus claims he cursed vengence on Athens and the Ionians.
+\footcite[Book 5.105]{herodotus_1920}
+The Ionian revolt didn't last long, with Ionian cities quickly falling to the
+Persian armies. At this point, Darius could claim revenge for Sardis had been
+fufilled, but he wasn't done with the border country yet. A small subset of the
+Grand Persian Army landed at Carystus and burnt the crops when resisted,
+before sailing for, and taking Eretria before landing at Marathon.
+\footnotemark
+The Athenians marched to Marathon to oppose the Persian army at the beach-head,
+at the behest of Miltiades, who argued that a siege could put Athens at risk of
+treachery from inside, for no one knew who supported the Persians bar the
+conspirators themselves. At Marathon, the armies faced off at each other in their
+respective camps for three days, neither making a move. The Athenians didn't
+want to take on the Persians on the open plain, as the Persians had cavalry,
+archers and a numerical advantage.\footnotemark[\value{footnote}]
+They also probably hoped for the Spartan force to arrive, who famously claimed
+to not wish to march until the full moon.
+\footnotetext{\cite[30, 32]{green_darius_west}}
+\footcite[Book 6.106]{herodotus_1920}
+
+\par\vspace{1em}
+
+Attempting to slip the cavalry away and attack Athens with the help of some
+Attic traitors, a scout serving in the Persian camp warned Miltiades, the Greek
+commander of the lack of cavalry.
+\footcite[35]{green_darius_west}
+The Persians had set up their defensive line
+no more than a mile from the Greeks, and Militades sensed a victorious moment
+coming. He ordered a charge `at full run' at the Persian lines, the infantry
+taken by surprise at the almost suicidal attack.\footcite[Book 6.112]{herodotus_1920}
+Callimachus, the Athenian second in command, lined his troops in a
+deliberately loose formation, and ran as fast past the arrow-fire as they could.
+The Greeks used much longer spears than the Persians, who didn't even have their
+immortal unit with them at the time, so there was little issue keeping the
+Persian infantry at bay once the lines were engaged, and they had nothing to
+fear from arrows or cavalry. Also, they were men fighting for their freedom,
+not conscripted soldiers. The Greeks had no issues creating a route on the wings,
+and disengaged from here to tackle the more experienced troops who had broken
+through the lines in the centre. The Persians lost 6,400 men in this battle,
+\footcite[37]{green_darius_west} and
+Athens could finally claim a military victory against the greatest force on Earth.
+
 
 \par\vspace{1em}
 
@@ -278,9 +349,9 @@ Carthaginians probably should have been bigger baddies than they were lol.
 
 % Bib page
 \newpage
-\small{
-  \listoffigures
-  \printbibliography
-}
+
+\listoffigures
+\printbibliography
+
 
 \end{document}
