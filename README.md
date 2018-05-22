@@ -33,7 +33,7 @@ Main Sources:
 
 - Wees, Hans Van. 1997. Review of Archaiologia on Archaic Greek Body Armour, by E. Jarva. The Classical Review: 154–155. doi:10.1093/cr/47.1.154. http://journals.cambridge.org/abstract_S0009840X00300956.
 
-  - 2004. Greek Warfare: Myths and Realities.
+  - Wees, Hans Van 2004. Greek Warfare: Myths and Realities.
 
   - Wees, Hans van, and Gregory F. Viggiano. 2013. The Arms, Armor, and Iconography of Early Greek Hoplite Warfare. In Men of Bronze: Hoplite Warfare in Ancient Greece, 57–73. Princeton University Press. isbn: 9780691143019, http://www.jstor.org/stable/j.ctt2855dr.8.
 
